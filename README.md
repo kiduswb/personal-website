@@ -4,8 +4,8 @@
 
 Third iteration of my personal website - www.kidus.ca
 
-## Specifications
+## Features
 
 - Simple static website with responsive UI.
-- Uses basic Bootstrap 5 components.
-- Now deployed for free on Netlify, I don't like paying exorbitant hosting bills.
+- Uses built-in Bootstrap 5 components.
+- Now deployed for free on Netlify, because I don't like paying exorbitant hosting bills.
