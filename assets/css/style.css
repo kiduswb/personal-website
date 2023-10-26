@@ -9,6 +9,10 @@ input:focus, textarea:focus, select:focus{
     outline: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .textar {
 	resize: none;
     height: 180px;
