@@ -24,12 +24,12 @@ input:focus, textarea:focus, select:focus{
   }
   
   .skill-name {
-    display: none; /* Initially hide the skill name */
+    display: none;
     font-weight: bold;
   }
   
   .skill-card:hover .skill-name {
-    display: block; /* Show the skill name on hover */
+    display: block;
   }
 
 .timeline {
