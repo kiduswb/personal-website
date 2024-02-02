@@ -3,11 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="software, developer, kidus, kidus bewket, bewket, web developer toronto, kidus software developer">
-	<meta name="description" content="Hello, I'm Kidus, and this is my personal website. I build and maintain software.">
+	<meta name="keywords"
+		content="software, developer, kidus, kidus bewket, bewket, web developer toronto, kidus software developer">
+	<meta name="description"
+		content="Hello, I'm Kidus, and this is my personal website. I build and maintain software.">
 	<meta property="og:image" content="">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+		integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 	<title>Kidus's Personal Site</title>
@@ -16,15 +21,25 @@
 
 	<section class="hero container py-5">
 		<div class="row py-3">
-			<div class="col-lg-5 py-3">
+			<div class="col-lg-12 py-3">
 				<h1 class="display-3">Hi, I'm Kidus.</h1>
-				<p class="lead">
-					I'm a passionate software developer with practical experience developing real world applications. I am 
+				<p class="lead col-lg-6 col-sm-12 col-md-12">
+					I'm a passionate software developer with practical experience developing real world applications. I
+					am
 					an outspoken advocate for open-source software.
 				</p>
-				<a href="KidusResume.pdf" class="btn btn-outline-dark btn-lg px-3 rounded-0"><i class="fas fa-file-alt"></i></a>
-				<a href="mailto:mail@kidus.ca" target="_blank" class="btn btn-outline-dark btn-lg px-3 rounded-0"><i class="fas fa-envelope-square"></i></a>
-				<a href="https://github.com/kiduswb" target="_blank" class="btn btn-outline-dark btn-lg px-3 rounded-0"><i class="fab fa-github"></i></a>
+				<a href="KidusResume.pdf" class="btn btn-outline-dark btn-lg px-3 rounded-0">
+					<i class="fas fa-file-alt"></i>
+					<span class="d-none d-md-inline">Download Resume</span>
+				</a>
+				<a href="mailto:mail@kidus.ca" target="_blank" class="btn btn-outline-dark btn-lg px-3 rounded-0">
+					<i class="fas fa-envelope-square"></i>
+					<span class="d-none d-md-inline">Email</span>
+				</a>
+				<a href="https://github.com/kiduswb" target="_blank" class="btn btn-outline-dark btn-lg px-3 rounded-0">
+					<i class="fab fa-github"></i>
+					<span class="d-none d-md-inline">GitHub</span>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -38,10 +53,19 @@
 				<div class="timeline">
 
 					<div class="timeline-row">
-						<div class="timeline-time">
-							2024<small>Jan</small>
-						</div>
 						<div class="timeline-content">
+							<div class="swiper py-3">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><img src="assets/img/ac1.png" class="img-fluid"
+											alt="Image 1"></div>
+									<div class="swiper-slide"><img src="assets/img/ac2.png" class="img-fluid"
+											alt="Image 2"></div>
+									<div class="swiper-slide"><img src="assets/img/ac3.png" class="img-fluid"
+											alt="Image 3"></div>
+								</div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
 							<h4>Addis Capital</h4>
 							<p>
 								<span class="badge">LAMP Stack</span>
@@ -52,15 +76,13 @@
 								maintaining the company website and internal web applications.
 							</p>
 							<div class="font-sans">
-								<a href="https://addis.capital/" target="_blank" class="btn btn-light">Visit Website &nbsp;<span class="fas fa-arrow-up-right-from-square"></span></a>
+								<a href="https://addis.capital/" target="_blank" class="btn btn-light">Visit Website
+									&nbsp;<span class="fas fa-arrow-up-right-from-square"></span></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="timeline-row">
-						<div class="timeline-time">
-							2023<small>Dec</small>
-						</div>
 						<div class="timeline-content">
 							<h4>KxHTTP</h4>
 							<p><span class="badge">C/C++</span></p>
@@ -69,15 +91,13 @@
 								HTTP client that runs via the command line.
 							</p>
 							<div class="font-sans">
-								<a href="https://kxhttp.org/" target="_blank" class="btn btn-light">Project Website &nbsp;<span class="fas fa-arrow-up-right-from-square"></span></a>
+								<a href="https://kxhttp.org/" target="_blank" class="btn btn-light">Project Website
+									&nbsp;<span class="fas fa-arrow-up-right-from-square"></span></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="timeline-row">
-						<div class="timeline-time">
-							2023<small>Jun</small>
-						</div>
 						<div class="timeline-content">
 							<h4>MagicEnvision</h4>
 							<p><span class="badge">Shopify</span></p>
@@ -85,15 +105,13 @@
 								An e-commerce website I built for a streetwear store.
 							</p>
 							<div class="font-sans">
-								<a href="http://magicenvision.ca" target="_blank" class="btn btn-light">Visit Website &nbsp;<span class="fas fa-arrow-up-right-from-square"></span></a>
+								<a href="http://magicenvision.ca" target="_blank" class="btn btn-light">Visit Website
+									&nbsp;<span class="fas fa-arrow-up-right-from-square"></span></a>
 							</div>
 						</div>
 					</div>
 
 					<div class="timeline-row">
-						<div class="timeline-time">
-							2023<small>Mar</small>
-						</div>
 						<div class="timeline-content">
 							<h4>Minimati</h4>
 							<p>
@@ -104,7 +122,8 @@
 								Open-source, headless and lightweight blogging CMS.
 							</p>
 							<div class="font-sans">
-								<a href="https://github.com/kiduswb/minimati" target="_blank" class="btn btn-light">GitHub Repo &nbsp;<span class="fab fa-github"></span></a>
+								<a href="https://github.com/kiduswb/minimati" target="_blank"
+									class="btn btn-light">GitHub Repo &nbsp;<span class="fab fa-github"></span></a>
 							</div>
 						</div>
 					</div>
@@ -125,7 +144,9 @@
 	</footer>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
-	
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0BBLWDFCX"></script>
 	<script>

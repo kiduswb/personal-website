@@ -2,10 +2,12 @@
 
 * {
     font-family: 'Rubik', 'Segoe UI', sans-serif;
-    border-radius: 0 !important;   
+    border-radius: 0 !important;
 }
 
-input:focus, textarea:focus, select:focus{
+input:focus,
+textarea:focus,
+select:focus {
     outline: none;
 }
 
@@ -14,23 +16,23 @@ input:focus, textarea:focus, select:focus{
 }
 
 .textar {
-	resize: none;
+    resize: none;
     height: 180px;
 }
 
 .skill-card {
     text-align: center;
     cursor: pointer;
-  }
-  
-  .skill-name {
+}
+
+.skill-name {
     display: none;
     font-weight: bold;
-  }
-  
-  .skill-card:hover .skill-name {
+}
+
+.skill-card:hover .skill-name {
     display: block;
-  }
+}
 
 .timeline {
     position: relative;
@@ -249,4 +251,9 @@ input:focus, textarea:focus, select:focus{
     .timeline .timeline-row:nth-child(even) .timeline-content:after {
         display: none;
     }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
 }
