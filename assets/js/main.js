@@ -1,1 +1,0 @@
-console.log("I don't really like JavaScript all that much :p");
