@@ -11,19 +11,19 @@ function App () {
 		{
 			name: 'The KANE Project',
 			description: 'A college capstone project; a rental listings service for newcomers & immigrants.',
-			image: 'public/kaneproject.jpg',
+			image: 'images/kaneproject.jpg',
 			weblink: 'https://kaneproject.ca'
 		},
 		{
 			name: 'KxHTTP',
 			description: 'A CLI-based HTTP client for quick and easy API testing. ',
-			image: 'public/kxhttp.jpg',
+			image: 'images/kxhttp.jpg',
 			weblink: 'https://kxhttp.org/'
 		},
 		{
 			name: 'Minimati',
 			description: 'A simple, open-source CMS for blog posts. Built for PHP developers. ',
-			image: 'public/minimati.jpg',
+			image: 'images/minimati.jpg',
 			weblink: 'https://github.com/kiduswb/minimati'
 		}
 	]
@@ -32,19 +32,19 @@ function App () {
 		{
 			name: 'Addis Capital',
 			description: 'Worked as a full-stack developer and built a real estate listings website and a custom CRM.',
-			image: 'public/addiscapital.jpg',
+			image: 'images/addiscapital.jpg',
 			weblink: 'https://addis.capital'
 		},
 		{
 			name: 'Flora Agricultural Estate',
 			description: 'Built a responsive website for a landscaping and agricultural services business.',
-			image: 'public/floraagri.jpg',
+			image: 'images/floraagri.jpg',
 			weblink: 'https://floraagri.com'
 		},
 		{
 			name: 'EOTC of Brandon, MB',
 			description: 'Built a responsive website for the Ethiopian Orthodox Tewahedo Church in Brandon, MB.',
-			image: 'public/eotcbrandon.jpg',
+			image: 'images/eotcbrandon.jpg',
 			weblink: 'https://eotcbrandon.ca'
 		}
 	]
