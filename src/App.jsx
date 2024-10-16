@@ -9,8 +9,14 @@ function App () {
 
 	const projects = [
 		{
+			name: 'OpenByte Hosting',
+			description: 'A free and open-source web hosting platform for everyone.',
+			image: 'images/openbyte.jpg',
+			weblink: 'https://openbytehosting.com'
+		},
+		{
 			name: 'The KANE Project',
-			description: 'A college capstone project; a rental listings service for newcomers & immigrants.',
+			description: 'Our capstone project for college – a rental listings service for newcomers & immigrants.',
 			image: 'images/kaneproject.jpg',
 			weblink: 'https://kaneproject.ca'
 		},
