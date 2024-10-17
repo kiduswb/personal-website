@@ -1,7 +1,8 @@
 import { Card, Button, Col } from 'react-bootstrap';
-import { FaGlobe } from 'react-icons/fa';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 function ShowcaseCard({projectDetails}) {
+    
     return (
         <Col lg={4} className="p-3">
             <Card className="border-0 rounded-0 shadow">
@@ -17,12 +18,12 @@ function ShowcaseCard({projectDetails}) {
                         {projectDetails.description}
                     </Card.Text>
                     <Button 
-                        variant="outline-dark" 
+                        variant="dark" 
                         className="rounded-0" 
                         href={projectDetails.weblink} 
                         target="_blank"
                     >
-                        <FaGlobe />&nbsp; View Project
+                        <FaArrowUpRightFromSquare />&nbsp; Open Project
                     </Button>
                 </Card.Body>
             </Card>

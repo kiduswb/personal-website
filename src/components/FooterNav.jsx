@@ -6,7 +6,7 @@ function FooterNav() {
             <Container>
                 <Row>
                     <Col lg="12" className="text-center py-3">
-                        <p>&copy; 2024 - Kidus Bewket</p>
+                        <p>Built with lots of ☕!</p>
                     </Col>
                 </Row>    
             </Container>    
