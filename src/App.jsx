@@ -13,18 +13,6 @@ function App () {
 			description: 'A free-to-use, open-source web hosting platform powered by iFastNet infrastructure.',
 			image: 'images/openbyte.jpg',
 			weblink: 'https://openbytehosting.com'
-		},
-		{
-			name: 'KxHTTP',
-			description: 'A simple HTTP client for quick and easy API testing and development.',
-			image: 'images/kxhttp.jpg',
-			weblink: 'https://kxhttp.org/'
-		},
-		{
-			name: 'The KANE Project',
-			description: 'Our capstone project for college - a rental listings service for newcomers to Canada.',
-			image: 'images/kaneproject.jpg',
-			weblink: 'https://kaneproject.ca'
 		}
 	]
 
