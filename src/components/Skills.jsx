@@ -7,10 +7,15 @@ function Skills()
             <div className="col-lg-9 mx-auto text-center">
                 <h4 className="mb-3">Technical Skills</h4>
                 <div className="d-flex flex-wrap justify-content-center gap-2 skill-icons">
-                    <img src="/site-icons/php.svg" alt="PHP" />
+                    <img src="/site-icons/html5.svg" alt="HTML5" />
+                    <img src="/site-icons/css3.svg" alt="CSS3" />
                     <img src="/site-icons/js.svg" alt="JavaScript" />
+                    <img src="/site-icons/php.svg" alt="PHP" />
                     <img src="/site-icons/react.svg" alt="React" />
+                    <img src="/site-icons/bootstrap.svg" alt="Bootstrap" />
+                    <img src="/site-icons/tailwind.svg" alt="Tailwind" />
                     <img src="/site-icons/nodejs.svg" alt="NodeJS" />
+                    <img src="/site-icons/react-native.svg" alt="React Native" />
                     <img src="/site-icons/python.svg" alt="Python" />
                     <img src="/site-icons/cpp.svg" alt="C++" />
                     <img src="/site-icons/csharp.svg" alt="C#" />
