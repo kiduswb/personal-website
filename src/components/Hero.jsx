@@ -3,7 +3,7 @@
 function Hero()
 {
     return (
-        <div className="row mb-5" data-aos="fade-up" data-aos-delay="2700">
+        <div className="row mb-5" data-aos="fade-up">
             <div className="col-lg-6 mx-auto text-center">
                 <h1>Hello! I'm Kidus.</h1>
                 <p className="lead">I'm a software developer pursuing a career in tech & IT.</p>

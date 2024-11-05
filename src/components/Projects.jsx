@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard"
 function Projects()
 {
     return (
-        <div className="row mb-5" data-aos="fade-up" data-aos-delay="2700">
+        <div className="row mb-5" data-aos="fade-up">
             <div className="col-lg-12 mb-3 mx-auto text-center">
                 <h3>Projects & Work</h3>
             </div>
