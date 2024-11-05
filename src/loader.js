@@ -1,47 +1,59 @@
 const Loader = {
     __loader: null,
 
-    show: function () 
-    {
+    show: function () {
         if (this.__loader == null) {
-            var divContainer = document.createElement('div');
+            // Container that covers the entire viewport
+            const divContainer = document.createElement('div');
             divContainer.style.position = 'fixed';
-            divContainer.style.left = '0';
             divContainer.style.top = '0';
-            divContainer.style.width = '100%';
-            divContainer.style.height = '100%';
-            divContainer.style.zIndex = '9998';
+            divContainer.style.left = '0';
+            divContainer.style.width = '100vw';
+            divContainer.style.height = '100vh';
             divContainer.style.backgroundColor = '#223843';
+            divContainer.style.zIndex = '9998';
 
-            var div = document.createElement('div');
-            div.style.position = 'absolute';
-            div.style.left = '50%';
-            div.style.top = '50%';
-            div.style.zIndex = '9999';
-            div.style.height = '64px';
+            // Centering using flexbox
+            divContainer.style.display = 'flex';
+            divContainer.style.alignItems = 'center';
+            divContainer.style.justifyContent = 'center';
+
+            // Spinner element
+            const div = document.createElement('div');
             div.style.width = '64px';
-            div.style.margin = '-76px 0 0 -76px';
+            div.style.height = '64px';
             div.style.border = '8px solid #e1e1e1';
-            div.style.borderRadius = '50%';
             div.style.borderTop = '8px solid #fff';
-            div.animate([
-                { transform: 'rotate(0deg)' },
-                { transform: 'rotate(360deg)' }
-              ], {
-                duration: 2000,
-                iterations: Infinity
-              });
+            div.style.borderRadius = '50%';
+
+            // Applying rotation animation directly
+            div.style.animation = 'spin 2s linear infinite';
+            
+            // CSS for rotation animation
+            const styleSheet = document.createElement("style");
+            styleSheet.type = "text/css";
+            styleSheet.innerText = `
+                @keyframes spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                }
+            `;
+            document.head.appendChild(styleSheet);
+
+            // Append the spinner to the container
             divContainer.appendChild(div);
-            this.__loader = divContainer
+            this.__loader = divContainer;
+
+            // Append the container to the body
             document.body.appendChild(this.__loader);
         }
-        this.__loader.style.display="";
+        // Make sure loader is visible
+        this.__loader.style.display = 'flex';
     },
 
-    hide: function(){
-        if(this.__loader!=null)
-        {
-            this.__loader.style.display="none";
+    hide: function () {
+        if (this.__loader) {
+            this.__loader.style.display = 'none';
         }
     }
-}
+};
