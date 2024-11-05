@@ -1,0 +1,63 @@
+/* Fonts and Layouts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/* Colors */
+
+.bg-gunmetal {
+    background-color: #223843;
+}
+
+.bg-huwhite {
+    background-color: #EFF1F3;
+}
+
+.text-gunmetal {
+    color: #223843;
+}
+
+.text-huwhite {
+    color: #EFF1F3;
+}
+
+.btn-huwhite {
+    color: #EFF1F3;
+    border-color: #EFF1F3;
+    background-color: transparent;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-huwhite:hover {
+    color: #223843;
+    background-color: #EFF1F3;
+}
+
+/* Skills Section */
+
+.skill-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.skill-icons img:hover {
+    transform: translateY(-5px);
+}

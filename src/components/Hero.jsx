@@ -1,50 +1,28 @@
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import { FaEnvelope, FaGithub, FaFileAlt } from 'react-icons/fa';
-import { FaFileArrowDown } from 'react-icons/fa6';
+// Hero.jsx
 
-//!TODO: Add Resume Link
-
-function Hero() {
+function Hero()
+{
     return (
-
-        <Container className="hero">
-            <Row className="py-5">
-                <Col lg={6} className="mx-auto">
-                    <h1>Hello! I'm Kidus. 👋🏾</h1>
-                    <p className="lead">
-                        I'm a software developer pursuing a career in Tech & IT.
-                    </p>
-                    <div>
-                        <Button 
-                            variant="dark" 
-                            className="rounded-0 me-1 btn-sm" 
-                            href="mailto:mail@kidus.ca"
-                        >
-                            <FaEnvelope />&nbsp; mail@kidus.ca
-                        </Button>
-                        <Button 
-                            variant="dark" 
-                            className="rounded-0 me-1 btn-sm" 
-                            href="https://github.com/kiduswb" 
-                            target="_blank"
-                            rel='noopener'
-                        >
-                            <FaGithub />&nbsp; kiduswb
-                        </Button>
-                        <Button 
-                            variant="dark" 
-                            className="rounded-0 me-1 btn-sm" 
-                            href="javascript:void();"
-                            target='_blank'
-                            rel='noopener'
-                        >
-                            <FaFileArrowDown />&nbsp; resume.pdf
-                        </Button>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-    
+        <div className="row mb-5" data-aos="fade-up" data-aos-delay="2700">
+            <div className="col-lg-6 mx-auto text-center">
+                <h1>Hello! I'm Kidus.</h1>
+                <p className="lead">I'm a software developer pursuing a career in tech & IT.</p>
+                <div className="d-flex flex-row gap-1 justify-content-center">
+                    <a href="mailto:mail@kidus.ca" className="btn btn-sm btn-huwhite rounded-0">
+                        <i className="fa fa-envelope me-1"></i>
+                        mail@kidus.ca
+                    </a>
+                    <a href="https://github.com/kiduswb" target="_blank" rel="noopener" className="btn btn-sm btn-huwhite rounded-0">
+                        <i className="fab fa-github me-1"></i>
+                        @kiduswb
+                    </a>
+                    <a href="#" className="btn btn-sm btn-huwhite rounded-0">
+                        <i className="fa fa-file-arrow-down me-1"></i>
+                        resume.pdf
+                    </a>
+                </div>
+            </div>
+        </div>
     )
 }
 

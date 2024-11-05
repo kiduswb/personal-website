@@ -1,15 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Hi! My name is Kidus and I'm a software developer based in Toronto, ON." />
-  <meta name="keywords" content="developer toronto, software dev toronto, dev toronto, kidus bewket" />
-  <title>Kidus Bewket</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Hi! My name is Kidus Bewket and I'm a software developer based in Toronto, ON." />
+  	<meta name="keywords" content="developer toronto, software developer toronto, toronto devs, kidus bewket" />
+	<!-- !TODO: Add more Meta tags here. -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<title>Kidus Bewket &mdash; Software Developer</title>
 </head>
-<body style="background-color: 333;">
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
+<body class="d-flex flex-column min-vh-100 bg-gunmetal text-huwhite">
+
+	<script src="/src/loader.js"></script>
+	<script>
+		Loader.show();
+		setTimeout(() => {
+			Loader.hide();
+		}, 2500);
+	</script>
+
+	<div id="root"></div>
+	<script type="module" src="/src/main.jsx"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+
 </body>
 </html>
