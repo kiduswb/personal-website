@@ -9,6 +9,17 @@ function Projects()
             </div>
 
             <ProjectCard
+                project_name="MP3Builder"
+                project_image="mp3builder.jpg"
+                project_description="A free and open-source tool for downloading MP3 from YouTube with custom tags."
+                project_demo="true"
+                project_link="https://mp3builder.net"
+                open_source="true"
+                github_link="https://github.com/kiduswb/mp3builder"
+                tech_stack="React, Bootstrap 5, NodeJS, Express, AWS S3 SDK"
+            />
+
+            <ProjectCard
                 project_name="OpenByte Hosting"
                 project_image="openbyte.jpg"
                 project_description="A free and open-source web hosting platform powered by iFastNet infrastructure."
@@ -16,7 +27,7 @@ function Projects()
                 project_link="https://openbytehosting.com"
                 open_source="true"
                 github_link="https://github.com/kiduswb/openbyte"
-                tech_stack="PHP, MySQL, htmx, Bootstrap, MOFH-API"
+                tech_stack="PHP, MySQL, htmx, Bootstrap 5, MOFH-API"
             />
 
             <ProjectCard
@@ -27,7 +38,7 @@ function Projects()
                 project_link="https://kaneproject.ca"
                 open_source="true"
                 github_link="https://github.com/kane-project"
-                tech_stack="PHP, MySQL, Bootstrap, AWS"
+                tech_stack="PHP, MySQL, Bootstrap 5, AWS EC2/RDS/S3"
             />
 
             <ProjectCard
@@ -36,7 +47,7 @@ function Projects()
                 project_description="A website for a landscaping and agro-consulting company based in Addis Ababa."
                 project_demo="true"
                 project_link="https://floraagri.com"
-                tech_stack="PHP, MySQL, Bootstrap"
+                tech_stack="PHP, MySQL, Bootstrap 5"
             />
 
             <ProjectCard
@@ -45,7 +56,7 @@ function Projects()
                 project_description="The official website for the Ethiopian Orthodox Tewahdo Church of Brandon, Manitoba."
                 project_demo="true"
                 project_link="https://eotcbrandon.ca"
-                tech_stack="PHP, MySQL, Bootstrap"
+                tech_stack="PHP, MySQL, Bootstrap 5"
             />
 
             <ProjectCard
@@ -54,7 +65,7 @@ function Projects()
                 project_description="A website and custom internal tools for a real estate agency based in Dubai."
                 project_demo="true"
                 project_link="https://addis.capital"
-                tech_stack="PHP, MySQL, Bootstrap"
+                tech_stack="PHP, MySQL, Bootstrap 5"
             />
         
         </div>
