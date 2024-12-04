@@ -11,12 +11,12 @@ function Projects()
             <ProjectCard
                 project_name="MP3Builder"
                 project_image="mp3builder.jpg"
-                project_description="A free and open-source tool for downloading MP3 from YouTube with custom tags."
+                project_description="A free and open-source tool for customizing MP3 tags and metadata."
                 project_demo="true"
                 project_link="https://mp3builder.net"
                 open_source="true"
                 github_link="https://github.com/kiduswb/mp3builder"
-                tech_stack="React, Bootstrap 5, NodeJS, Express, AWS S3 SDK"
+                tech_stack="React, NodeJS, Express, AWS S3 SDK"
             />
 
             <ProjectCard
