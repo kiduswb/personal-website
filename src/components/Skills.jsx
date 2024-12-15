@@ -3,7 +3,7 @@
 function Skills() 
 {
     return (
-        <div className="row mb-5" data-aos="fade-right">
+        <div className="row mb-5">
             <div className="col-lg-6 mx-auto text-center">
                 <h3 className="mb-4">Technical Skills</h3>
                 <div className="d-flex flex-wrap justify-content-center gap-2 skill-icons">
