@@ -16,7 +16,7 @@ function Hero()
                         <i className="fab fa-github me-1"></i>
                         @kiduswb
                     </a>
-                    <a href="#" className="btn btn-sm btn-huwhite rounded-0">
+                    <a href="#" download className="btn btn-sm btn-huwhite rounded-0">
                         <i className="fa fa-file-arrow-down me-1"></i>
                         resume.pdf
                     </a>

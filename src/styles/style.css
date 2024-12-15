@@ -53,8 +53,8 @@ main {
 /* Skills Section */
 
 .skill-icons img {
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     transition: transform 0.2s ease;
 }
 

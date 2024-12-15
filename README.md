@@ -4,8 +4,8 @@
 
 My personal website &mdash; [kidus.ca](https://kidus.ca)
 
-## Features 🚀
+## Features
 
-- Brand New Design
-- Utilizes Bootstrap-styled components
-- Yet again deployed on Netlify to avoid paying for web hosting 😉
+- Simple and Minimalistic design
+- Utilizes React and Bootstrap 5
+- `{jobs_found_because_of_personal_website`: `0}`

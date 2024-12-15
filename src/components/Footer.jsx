@@ -7,7 +7,7 @@ function Footer()
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 mx-auto text-center">
-                        <p>&copy; 2024 &mdash; Built with 💖 and ☕!</p>
+                        <p>Built with 💖 and ☕!</p>
                     </div>
                 </div>
             </div>
@@ -15,4 +15,4 @@ function Footer()
     )
 }
 
-export default Footer;
+export default Footer
