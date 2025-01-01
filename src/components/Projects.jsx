@@ -31,18 +31,9 @@ function Projects()
             />
 
             <ProjectCard
-                project_name="Addis Capital"
-                project_image="addiscapital.jpg"
-                project_description="A property listings website for a real estate company."
-                project_demo="true"
-                project_link="https://addis.capital"
-                tech_stack="PHP, MySQL"
-            />
-
-            <ProjectCard
                 project_name="EOTC of Brandon, MB"
                 project_image="eotcbrandon.jpg"
-                project_description="Website for the Ethiopian Orthodox Tewahdo Church of Brandon, Manitoba."
+                project_description="Official website for the Ethiopian Orthodox Tewahdo Church of Brandon, Manitoba."
                 project_demo="true"
                 project_link="https://eotcbrandon.ca"
                 tech_stack="HTML, CSS, JavaScript"
@@ -51,7 +42,7 @@ function Projects()
             <ProjectCard
                 project_name="Flora Agricultural Estate"
                 project_image="floraagri.jpg"
-                project_description="A website for a landscaping and agro-consulting company based in Addis Ababa, Ethiopia."
+                project_description="A company website for an agricultural consulting company based in Addis Ababa, Ethiopia."
                 project_demo="true"
                 project_link="https://floraagri.com"
                 tech_stack="HTML, CSS, JavaScript"
